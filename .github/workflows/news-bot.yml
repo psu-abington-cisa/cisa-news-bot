@@ -1,0 +1,40 @@
+name: CISA news bot
+
+on:
+  schedule:
+    - cron: "17 * * * *"      # hourly, at :17 (keeps private-repo Actions usage ~720 min/month)
+  workflow_dispatch:          # "Run workflow" button for manual runs
+
+permissions:
+  contents: write             # to commit state.json (what's already been posted)
+
+concurrency:
+  group: news-bot
+  cancel-in-progress: false
+
+jobs:
+  post-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Post new items to Discord
+        env:
+          WEBHOOK_HACKTUALITY: ${{ secrets.WEBHOOK_HACKTUALITY }}
+          WEBHOOK_CVE_ALERTS: ${{ secrets.WEBHOOK_CVE_ALERTS }}
+          WEBHOOK_BREACHES: ${{ secrets.WEBHOOK_BREACHES }}
+          WEBHOOK_CTF: ${{ secrets.WEBHOOK_CTF }}
+        run: python3 news_bot.py
+
+      - name: Save posted-items state
+        run: |
+          git config user.name "cisa-news-bot"
+          git config user.email "cisa-news-bot@users.noreply.github.com"
+          git add state.json
+          git diff --cached --quiet || git commit -m "news-bot: update state [skip ci]"
+          git push
