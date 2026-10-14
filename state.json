@@ -1,5 +1,9 @@
 {
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/microsoft-takes-down-3-major-chinese-phishing-platforms",
+  "https://therecord.media/russia-anywayanyday-travel-website-cyberattack",
+  "https://therecord.media/new-ivanti-microsoft-bugs-exploitation",
+  "https://therecord.media/congressional-probe-faults-match-group-for-failing-to-stop-dating-app-scams",
   "https://therecord.media/north-korea-laptop-farms-worker-scams-doj-raids-texas",
   "https://therecord.media/sextortion-assistance-company-alleged-fraud-ftc-complaint",
   "https://therecord.media/sandbox-vulnerability-gives-rogue-ai-agents-path-out",
@@ -7,6 +11,7 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=129999",
   "https://databreaches.net/?p=129995",
   "https://databreaches.net/?p=129922",
   "https://databreaches.net/?p=129991",
@@ -75,6 +80,10 @@
   "CVE-2026-104286"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
+  "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
+  "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
+  "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
   "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
   "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html",
   "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
@@ -127,11 +136,16 @@
   "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html"
  ],
  "hacktuality|https://krebsonsecurity.com/feed/": [
+  "https://krebsonsecurity.com/?p=74435",
   "https://krebsonsecurity.com/?p=74474",
   "https://krebsonsecurity.com/?p=74440",
   "https://krebsonsecurity.com/?p=74398"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
+  "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/",
+  "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
+  "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
   "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/",
   "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
   "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
@@ -149,6 +163,7 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/cyberattacks-data-breaches/russian-influence-operation-targeting-latin-america",
   "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking",
   "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
   "https://www.darkreading.com/cyberattacks-data-breaches/north-korea-phishes-ukrainians-war-intel",
