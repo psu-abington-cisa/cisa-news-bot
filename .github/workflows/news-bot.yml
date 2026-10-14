@@ -32,6 +32,7 @@ jobs:
         run: python3 news_bot.py
 
       - name: Save posted-items state
+        if: success() || failure()   # save even if one channel failed, so others don't repeat
         run: |
           git config user.name "cisa-news-bot"
           git config user.email "cisa-news-bot@users.noreply.github.com"

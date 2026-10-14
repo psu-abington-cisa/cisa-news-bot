@@ -31,6 +31,21 @@ USER_AGENT = "CISA-PSU-Abington-NewsBot/1.0 (+https://cisa.cybernet.rocks)"
 MAX_ITEMS_CONSIDERED = 100  # only the newest N items of each feed are ever posted
 MAX_SEEN_PER_FEED = 500     # must stay above MAX_ITEMS_CONSIDERED
 MAX_AGE_DAYS = 14           # never post items older than this
+WEBHOOK_RE = re.compile(r"^https://(?:(?:canary|ptb)\.)?discord(?:app)?\.com/api/webhooks/\d+/[\w-]+$")
+
+
+def describe_bad_webhook(value):
+    """Explain why a webhook value is unusable without revealing its token."""
+    hints = [f"length {len(value)}"]
+    if not value.startswith("https://"):
+        hints.append("does not start with https://")
+    elif "/api/webhooks/" not in value:
+        hints.append("is a URL but not a Discord webhook URL")
+    else:
+        hints.append("has extra characters or a malformed ID/token")
+    if any(c.isspace() for c in value):
+        hints.append("contains whitespace")
+    return ", ".join(hints)
 
 
 def fetch(url, timeout=30):
@@ -162,11 +177,17 @@ def main():
     if config is None:
         sys.exit(f"Missing or invalid {CONFIG_PATH}")
     state = load_json(STATE_PATH, {})
+    failures = False
     max_posts = config.get("max_posts_per_feed_per_run", 4)
     first_run_posts = config.get("first_run_posts_per_feed", 2)
 
     for channel, ch in config["channels"].items():
-        webhook = os.environ.get(ch["webhook_env"], "").strip()
+        webhook = os.environ.get(ch["webhook_env"], "").strip().strip("'\"<>")
+        if webhook and not WEBHOOK_RE.match(webhook):
+            print(f"#{channel} skipped: {ch['webhook_env']} is not a valid Discord webhook URL "
+                  f"({describe_bad_webhook(webhook)})", file=sys.stderr)
+            failures = True
+            continue
         live = bool(webhook) and not dry_run
         print(f"#{channel} ({'live' if live else 'dry-run'})")
         for feed in ch["feeds"]:
@@ -194,6 +215,7 @@ def main():
                 }
                 if live:
                     if not post_webhook(webhook, payload):
+                        failures = True
                         continue
                     time.sleep(1.2)
                 print(f"  + [{feed['name']}] {item['title']}")
@@ -211,6 +233,8 @@ def main():
 
     if not dry_run:
         STATE_PATH.write_text(json.dumps(state, indent=1, sort_keys=True) + "\n")
+    if failures:
+        sys.exit(1)  # state is saved first, so working channels don't repeat posts
 
 
 if __name__ == "__main__":
