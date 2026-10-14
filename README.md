@@ -20,7 +20,7 @@ Edit `feeds.json` to add or remove sources (any RSS/Atom feed works).
 2. **Push this folder to a GitHub repo** (private is fine).
 3. **Add the URLs as repo secrets** (Settings → Secrets and variables → Actions):
    `WEBHOOK_HACKTUALITY`, `WEBHOOK_CVE_ALERTS`, `WEBHOOK_BREACHES`, `WEBHOOK_CTF`.
-4. **Enable Actions** and click *Run workflow* once. After that it runs every hour.
+4. **Enable Actions** and click *Run workflow* once. After that it runs every 15 minutes (GitHub sometimes delays or skips scheduled runs; the next run catches up).
 
 The first run posts the 2 newest items per source and marks the rest as seen, so
 the channels don't get flooded. Each run posts at most 4 new items per source and
