@@ -1,4 +1,10 @@
 {
+ "_digests": {
+  "breaches-and-incidents": "2026-10-14",
+  "ctf-announcements": "2026-W42",
+  "cve-alerts": "2026-10-14",
+  "hacktuality": "2026-10-14"
+ },
  "breaches-and-incidents|https://therecord.media/feed": [
   "https://therecord.media/microsoft-takes-down-3-major-chinese-phishing-platforms",
   "https://therecord.media/russia-anywayanyday-travel-website-cyberattack",

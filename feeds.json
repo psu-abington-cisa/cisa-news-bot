@@ -1,42 +1,102 @@
 {
+  "timezone": "America/New_York",
   "channels": {
     "hacktuality": {
       "webhook_env": "WEBHOOK_HACKTUALITY",
       "username": "Hacktuality",
       "color": "2f6cc4",
       "feeds": [
-        {"name": "The Hacker News", "type": "rss", "url": "https://feeds.feedburner.com/TheHackersNews"},
-        {"name": "BleepingComputer", "type": "rss", "url": "https://www.bleepingcomputer.com/feed/"},
-        {"name": "Krebs on Security", "type": "rss", "url": "https://krebsonsecurity.com/feed/"},
-        {"name": "Dark Reading", "type": "rss", "url": "https://www.darkreading.com/rss.xml"}
-      ]
+        {
+          "name": "The Hacker News",
+          "type": "rss",
+          "url": "https://feeds.feedburner.com/TheHackersNews"
+        },
+        {
+          "name": "BleepingComputer",
+          "type": "rss",
+          "url": "https://www.bleepingcomputer.com/feed/"
+        },
+        {
+          "name": "Krebs on Security",
+          "type": "rss",
+          "url": "https://krebsonsecurity.com/feed/"
+        },
+        {
+          "name": "Dark Reading",
+          "type": "rss",
+          "url": "https://www.darkreading.com/rss.xml"
+        }
+      ],
+      "schedule": {
+        "every": "day",
+        "time": "08:15",
+        "count": 5,
+        "max_age_days": 3
+      },
+      "header": "📰 **Daily Hacktuality: {date}**"
     },
     "cve-alerts": {
       "webhook_env": "WEBHOOK_CVE_ALERTS",
       "username": "CVE Alerts",
       "color": "e74c3c",
       "feeds": [
-        {"name": "CISA KEV", "type": "cisa_kev", "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"}
-      ]
+        {
+          "name": "CISA KEV",
+          "type": "cisa_kev",
+          "url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+        }
+      ],
+      "schedule": {
+        "every": "day",
+        "time": "08:15",
+        "count": 5,
+        "max_age_days": 3
+      },
+      "header": "🚨 **Newly exploited vulnerabilities (CISA KEV): {date}**"
     },
     "breaches-and-incidents": {
       "webhook_env": "WEBHOOK_BREACHES",
       "username": "Breach Watch",
       "color": "e67e22",
       "feeds": [
-        {"name": "DataBreaches.net", "type": "rss", "url": "https://www.databreaches.net/feed/"},
-        {"name": "The Record", "type": "rss", "url": "https://therecord.media/feed"}
-      ]
+        {
+          "name": "DataBreaches.net",
+          "type": "rss",
+          "url": "https://www.databreaches.net/feed/"
+        },
+        {
+          "name": "The Record",
+          "type": "rss",
+          "url": "https://therecord.media/feed"
+        }
+      ],
+      "schedule": {
+        "every": "day",
+        "time": "08:15",
+        "count": 5,
+        "max_age_days": 3
+      },
+      "header": "🔓 **Breaches & incidents: {date}**"
     },
     "ctf-announcements": {
       "webhook_env": "WEBHOOK_CTF",
       "username": "CTF Radar",
       "color": "2ecc71",
       "feeds": [
-        {"name": "CTFtime", "type": "rss", "url": "https://ctftime.org/event/list/upcoming/rss/"}
-      ]
+        {
+          "name": "CTFtime",
+          "type": "rss",
+          "url": "https://ctftime.org/event/list/upcoming/rss/"
+        }
+      ],
+      "schedule": {
+        "every": "week",
+        "weekday": "monday",
+        "time": "09:00",
+        "count": 5,
+        "skip_unposted": false
+      },
+      "header": "🚩 **Upcoming CTFs: week of {date}**"
     }
-  },
-  "max_posts_per_feed_per_run": 4,
-  "first_run_posts_per_feed": 2
+  }
 }

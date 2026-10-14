@@ -1,14 +1,23 @@
 #!/usr/bin/env python3
 """CISA @ Penn State Abington news bot.
 
-Polls security news feeds and posts new items to Discord channels via webhooks.
-Standard library only. Configure feeds in feeds.json; webhook URLs come from
-environment variables (never commit them). Without a webhook set, a channel
-runs in dry-run mode and just prints what it would post.
+Posts scheduled digests of security news to Discord channels via webhooks.
+Each channel in feeds.json has a schedule (e.g. daily at 08:15, or weekly on
+Monday at 09:00, in the configured timezone) and a count. When a channel's
+digest is due, the bot sends ONE message with that many new items, mixed
+across its sources. Runs are cheap when nothing is due, so the workflow can
+check often and still post each digest exactly once, even if GitHub's
+scheduler runs late or skips runs.
+
+Standard library only. Webhook URLs come from environment variables (never
+commit them). Without a webhook set, a channel runs in dry-run mode and just
+prints what it would post.
 
 Usage:
-  python3 news_bot.py            # post new items
-  python3 news_bot.py --dry-run  # print only, never post, don't save state
+  python3 news_bot.py              # post any digests that are due
+  python3 news_bot.py --dry-run    # print only, never post, don't save state
+  python3 news_bot.py --force      # ignore schedules (testing)
+  NEWS_BOT_NOW=2026-10-15T08:20 python3 news_bot.py --dry-run   # pretend it's this local time
 """
 
 import html
@@ -20,9 +29,10 @@ import time
 import urllib.error
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 HERE = Path(__file__).resolve().parent
 CONFIG_PATH = HERE / "feeds.json"
@@ -30,7 +40,7 @@ STATE_PATH = HERE / "state.json"
 USER_AGENT = "CISA-PSU-Abington-NewsBot/1.0 (+https://cisa.cybernet.rocks)"
 MAX_ITEMS_CONSIDERED = 100  # only the newest N items of each feed are ever posted
 MAX_SEEN_PER_FEED = 500     # must stay above MAX_ITEMS_CONSIDERED
-MAX_AGE_DAYS = 14           # never post items older than this
+WEEKDAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 WEBHOOK_RE = re.compile(r"^https://(?:(?:canary|ptb)\.)?discord(?:app)?\.com/api/webhooks/\d+/[\w-]+$")
 
 
@@ -79,7 +89,10 @@ def parse_date(value):
 
 
 def parse_rss(data):
-    """Return items newest-first from an RSS 2.0 or Atom document."""
+    """Return items newest-first from an RSS 2.0 or Atom document.
+
+    Items without a date keep the feed's own order (e.g. CTFtime lists the
+    soonest upcoming events first)."""
     root = ET.fromstring(data)
     items = []
     for node in root.iter():
@@ -171,17 +184,61 @@ def load_json(path, default):
         return default
 
 
+def period_due(schedule, now_local, last_period):
+    """Return the period key (e.g. '2026-10-15' or '2026-W42') if a digest is due, else None.
+
+    Daily: due once the day's time has passed. Weekly: due once the weekday's
+    time has passed, and still due later that week if every run that day was
+    missed, but never twice in the same week."""
+    hour, minute = map(int, schedule["time"].split(":"))
+    if schedule["every"] == "day":
+        if (now_local.hour, now_local.minute) < (hour, minute):
+            return None
+        key = now_local.date().isoformat()
+    elif schedule["every"] == "week":
+        target = WEEKDAYS.index(schedule["weekday"].lower())
+        today = now_local.weekday()
+        if today < target or (today == target and (now_local.hour, now_local.minute) < (hour, minute)):
+            return None
+        year, week, _ = now_local.isocalendar()
+        key = f"{year}-W{week:02d}"
+    else:
+        raise ValueError(f"unknown schedule: {schedule}")
+    return None if key == last_period else key
+
+
+def pick_items(per_feed_new, count):
+    """Pick up to `count` items, round-robin across feeds so one source can't fill the digest."""
+    picked, queues = [], [list(items) for _, items in per_feed_new]
+    names = [name for name, _ in per_feed_new]
+    while len(picked) < count and any(queues):
+        for name, queue in zip(names, queues):
+            if queue and len(picked) < count:
+                picked.append((name, queue.pop(0)))
+    return picked
+
+
 def main():
     dry_run = "--dry-run" in sys.argv
+    force = "--force" in sys.argv
     config = load_json(CONFIG_PATH, None)
     if config is None:
         sys.exit(f"Missing or invalid {CONFIG_PATH}")
+    tz = ZoneInfo(config.get("timezone", "America/New_York"))
+    now_local = (datetime.fromisoformat(os.environ["NEWS_BOT_NOW"]).replace(tzinfo=tz)
+                 if os.environ.get("NEWS_BOT_NOW") else datetime.now(tz))
     state = load_json(STATE_PATH, {})
+    digests = state.setdefault("_digests", {})
     failures = False
-    max_posts = config.get("max_posts_per_feed_per_run", 4)
-    first_run_posts = config.get("first_run_posts_per_feed", 2)
 
     for channel, ch in config["channels"].items():
+        schedule = ch["schedule"]
+        period = period_due(schedule, now_local, digests.get(channel))
+        if force:
+            period = period or now_local.isoformat(timespec="minutes")
+        if not period:
+            continue
+
         webhook = os.environ.get(ch["webhook_env"], "").strip().strip("'\"<>")
         if webhook and not WEBHOOK_RE.match(webhook):
             print(f"#{channel} skipped: {ch['webhook_env']} is not a valid Discord webhook URL "
@@ -189,7 +246,10 @@ def main():
             failures = True
             continue
         live = bool(webhook) and not dry_run
-        print(f"#{channel} ({'live' if live else 'dry-run'})")
+        print(f"#{channel} digest {period} ({'live' if live else 'dry-run'})")
+
+        max_age = timedelta(days=schedule.get("max_age_days", 3))
+        fetched, per_feed_new = {}, []
         for feed in ch["feeds"]:
             key = f"{channel}|{feed['url']}"
             try:
@@ -197,39 +257,44 @@ def main():
             except Exception as err:  # one broken feed shouldn't stop the rest
                 print(f"  ! {feed['name']}: {err}", file=sys.stderr)
                 continue
-            cutoff = datetime.now(timezone.utc).timestamp() - MAX_AGE_DAYS * 86400
-            items = [i for i in items if i["date"] is None or i["date"].timestamp() >= cutoff]
-
-            first_run = key not in state
+            fetched[key] = items
             seen = set(state.get(key, []))
-            new = [i for i in items if i["id"] not in seen]
-            to_post = new[: first_run_posts if first_run else max_posts]
+            fresh = [i for i in items if i["id"] not in seen
+                     and (i["date"] is None or now_local - i["date"] <= max_age)]
+            per_feed_new.append((feed["name"], fresh))
 
-            # Post oldest first so the channel reads chronologically.
-            posted_ids = []
-            for item in reversed(to_post):
-                payload = {
-                    "username": ch["username"],
-                    "embeds": [build_embed(item, feed["name"], ch["color"])],
-                    "allowed_mentions": {"parse": []},
-                }
-                if live:
-                    if not post_webhook(webhook, payload):
-                        failures = True
-                        continue
-                    time.sleep(1.2)
-                print(f"  + [{feed['name']}] {item['title']}")
-                posted_ids.append(item["id"])
+        picked = pick_items(per_feed_new, schedule["count"])
+        if not picked:
+            print("  (nothing new)")
+        else:
+            header = ch["header"].format(date=f"{now_local:%a %b} {now_local.day}")
+            payload = {
+                "username": ch["username"],
+                "content": header,
+                "embeds": [build_embed(item, name, ch["color"]) for name, item in picked],
+                "allowed_mentions": {"parse": []},
+            }
+            for name, item in picked:
+                print(f"  + [{name}] {item['title']}")
+            if live and not post_webhook(webhook, payload):
+                failures = True
+                continue  # don't record the period, so the next run retries
 
-            if live:
-                # On first run, mark the whole backlog as seen so we don't flood later.
-                if first_run:
-                    marked = [i["id"] for i in items]
+        if live:
+            posted = {item["id"] for _, item in picked}
+            for feed in ch["feeds"]:
+                key = f"{channel}|{feed['url']}"
+                if key not in fetched:
+                    continue
+                if schedule.get("skip_unposted", True):
+                    # News: everything we saw is done, so tomorrow's digest is only fresh news.
+                    marked = [i["id"] for i in fetched[key]]
                 else:
-                    # Items beyond the per-run cap stay unseen and go out next run.
-                    unposted_new = {i["id"] for i in new} - set(posted_ids)
-                    marked = [i["id"] for i in items if i["id"] not in unposted_new]
-                state[key] = (marked + [s for s in state.get(key, []) if s not in marked])[:MAX_SEEN_PER_FEED]
+                    # CTFs: only what we posted, so later events still get their turn.
+                    marked = [i["id"] for i in fetched[key] if i["id"] in posted]
+                old = state.get(key, [])
+                state[key] = (marked + [s for s in old if s not in marked])[:MAX_SEEN_PER_FEED]
+            digests[channel] = period
 
     if not dry_run:
         STATE_PATH.write_text(json.dumps(state, indent=1, sort_keys=True) + "\n")

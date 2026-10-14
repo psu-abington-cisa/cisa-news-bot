@@ -2,7 +2,11 @@ name: CISA news bot
 
 on:
   schedule:
-    - cron: "4,19,34,49 * * * *"   # every 15 min, off the busy top-of-hour slot (GitHub may still skip some runs)
+    # Digests go out at 8:15 AM (daily) and Monday 9:00 AM, America/New_York.
+    # The bot decides what's due; these runs just check often around those times
+    # (12-14 UTC covers both EDT and EST) since GitHub delays and skips scheduled runs.
+    - cron: "*/5 12-14 * * *"
+    - cron: "41 * * * *"           # hourly fallback in case every morning run was skipped
   workflow_dispatch:          # "Run workflow" button for manual runs
 
 permissions:
@@ -25,7 +29,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Post new items to Discord
+      - name: Post any digests that are due
         env:
           WEBHOOK_HACKTUALITY: ${{ secrets.WEBHOOK_HACKTUALITY }}
           WEBHOOK_CVE_ALERTS: ${{ secrets.WEBHOOK_CVE_ALERTS }}
