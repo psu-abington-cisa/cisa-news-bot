@@ -1,9 +1,9 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-10-16",
+  "breaches-and-incidents": "2026-10-17",
   "ctf-announcements": "2026-W42",
-  "cve-alerts": "2026-10-16",
-  "hacktuality": "2026-10-16"
+  "cve-alerts": "2026-10-17",
+  "hacktuality": "2026-10-17"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
   "https://therecord.media/proofpoint-varonis-cybersecurity-acquisition",
@@ -27,6 +27,8 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130015",
+  "https://databreaches.net/?p=130017",
   "https://databreaches.net/?p=130013",
   "https://databreaches.net/?p=130011",
   "https://databreaches.net/?p=130008",
@@ -88,6 +90,8 @@
   "https://ctftime.org/event/3458"
  ],
  "cve-alerts|https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json": [
+  "CVE-2026-102764",
+  "CVE-2025-61624",
   "CVE-2026-21589",
   "CVE-2026-105134",
   "CVE-2026-76519",
@@ -191,6 +195,11 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+  "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+  "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+  "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+  "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
   "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
   "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
   "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
@@ -286,6 +295,8 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+  "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
   "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
   "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
   "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
@@ -327,6 +338,11 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
+  "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk",
+  "https://www.darkreading.com/data-privacy/biomemory-launches-dna-shield",
+  "https://www.darkreading.com/cyber-risk/enterprise-ai-risk-management-phase-security-concerns-rise",
+  "https://www.darkreading.com/ics-ot-security/ai-takes-control-robotic-arm-16-minutes",
   "https://www.darkreading.com/cyber-risk/when-your-ransomware-negotiator-works-other-side",
   "https://www.darkreading.com/insider-threats/ai-agents-breaches-humans-liable",
   "https://www.darkreading.com/cybersecurity-operations/sector-2026-reveals-a-rapidly-shifting-cybersecurity-landscape",
