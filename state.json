@@ -1,9 +1,9 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-10-17",
+  "breaches-and-incidents": "2026-10-18",
   "ctf-announcements": "2026-W42",
-  "cve-alerts": "2026-10-17",
-  "hacktuality": "2026-10-17"
+  "cve-alerts": "2026-10-18",
+  "hacktuality": "2026-10-18"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
   "https://therecord.media/proofpoint-varonis-cybersecurity-acquisition",
@@ -27,6 +27,10 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130025",
+  "https://databreaches.net/?p=130023",
+  "https://databreaches.net/?p=130021",
+  "https://databreaches.net/?p=130019",
   "https://databreaches.net/?p=130015",
   "https://databreaches.net/?p=130017",
   "https://databreaches.net/?p=130013",
@@ -195,6 +199,7 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
   "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
   "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
   "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
@@ -295,6 +300,8 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+  "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
   "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
   "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
   "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
