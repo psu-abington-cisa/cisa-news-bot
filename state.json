@@ -1,11 +1,14 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-10-18",
-  "ctf-announcements": "2026-W42",
-  "cve-alerts": "2026-10-18",
-  "hacktuality": "2026-10-18"
+  "breaches-and-incidents": "2026-10-19",
+  "ctf-announcements": "2026-W43",
+  "cve-alerts": "2026-10-19",
+  "hacktuality": "2026-10-19"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/ahold-delhaize-cyberattack-grocery",
+  "https://therecord.media/russian-social-media-giant-vk-faces-disruptions-drone-strike-data-center",
+  "https://therecord.media/russia-cyberattack-firstvds-cloud",
   "https://therecord.media/proofpoint-varonis-cybersecurity-acquisition",
   "https://therecord.media/russia-datasuckers-hackers-arrested",
   "https://therecord.media/anne-arundel-county-maryland-confirms-data-breach",
@@ -51,6 +54,8 @@
   "https://databreaches.net/?p=129941"
  ],
  "ctf-announcements|https://ctftime.org/event/list/upcoming/rss/": [
+  "https://ctftime.org/event/3477",
+  "https://ctftime.org/event/3463",
   "https://ctftime.org/event/3364",
   "https://ctftime.org/event/3471",
   "https://ctftime.org/event/3279",
@@ -199,6 +204,13 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
+  "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
+  "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+  "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
+  "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+  "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
+  "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
   "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
   "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
   "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
@@ -288,6 +300,7 @@
   "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html"
  ],
  "hacktuality|https://krebsonsecurity.com/feed/": [
+  "https://krebsonsecurity.com/?p=74480",
   "https://krebsonsecurity.com/?p=74435",
   "https://krebsonsecurity.com/?p=74474",
   "https://krebsonsecurity.com/?p=74440",
@@ -300,6 +313,13 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
+  "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
+  "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-hid-copilot-buttons-in-classic-outlook/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-windows-server-updates-cause-exchange-issues/",
+  "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
   "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
   "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
   "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
@@ -345,6 +365,8 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/vulnerabilities-threats/onlyfans-copyright-takedowns-expose-compromised-websites",
+  "https://www.darkreading.com/vulnerabilities-threats/cybersecurity-lexicon-vulnerability-discovery-resilience",
   "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
   "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk",
   "https://www.darkreading.com/data-privacy/biomemory-launches-dna-shield",
