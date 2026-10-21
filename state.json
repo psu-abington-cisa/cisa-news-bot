@@ -1,11 +1,16 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-10-20",
+  "breaches-and-incidents": "2026-10-21",
   "ctf-announcements": "2026-W43",
-  "cve-alerts": "2026-10-20",
-  "hacktuality": "2026-10-20"
+  "cve-alerts": "2026-10-21",
+  "hacktuality": "2026-10-21"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/php-script-vulnerabilities-warnings",
+  "https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims",
+  "https://therecord.media/california-warns-all-public-school-students-of-data-breach",
+  "https://therecord.media/23andme-california-data-breach-settlement",
+  "https://therecord.media/nigerian-given-8-year-sentenc-tax-hacks",
   "https://therecord.media/eu-cyber-law-wont-force-fixes-for-fridges-in-french-attack",
   "https://therecord.media/aomei-yet-to-notify-customers-hijack-software",
   "https://therecord.media/anti-putin-messages-disrupt-russian-education-platform",
@@ -35,6 +40,7 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130047",
   "https://databreaches.net/?p=130038",
   "https://databreaches.net/?p=130028",
   "https://databreaches.net/?p=130034",
@@ -109,6 +115,12 @@
   "https://ctftime.org/event/3458"
  ],
  "cve-alerts|https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json": [
+  "CVE-2026-106931",
+  "CVE-2026-96656",
+  "CVE-2026-96655",
+  "CVE-2026-96654",
+  "CVE-2026-96652",
+  "CVE-2026-110936",
   "CVE-2026-102764",
   "CVE-2025-61624",
   "CVE-2026-21589",
@@ -214,6 +226,22 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
+  "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
+  "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
+  "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
+  "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
+  "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
+  "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
+  "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
+  "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
+  "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
+  "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
+  "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
+  "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
+  "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+  "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+  "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
   "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
   "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
   "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
@@ -322,6 +350,7 @@
   "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html"
  ],
  "hacktuality|https://krebsonsecurity.com/feed/": [
+  "https://krebsonsecurity.com/?p=74522",
   "https://krebsonsecurity.com/?p=74480",
   "https://krebsonsecurity.com/?p=74435",
   "https://krebsonsecurity.com/?p=74474",
@@ -335,6 +364,16 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
+  "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-didnt-actually-fix-vpn-issues-caused-by-windows-updates/",
+  "https://www.bleepingcomputer.com/news/security/cisa-and-fbi-safepay-ransomware-has-hit-over-600-critical-infrastructure-organizations/",
+  "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
+  "https://www.bleepingcomputer.com/news/security/mozilla-google-apple-block-compromised-emudhra-ca-certificates/",
+  "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+  "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
   "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
   "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
   "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
@@ -398,6 +437,10 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack",
+  "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+  "https://www.darkreading.com/insider-threats/ex-openai-engineer-secret-recorder-saudi-ties",
+  "https://www.darkreading.com/application-security/close-identity-gaps-sdlc-before-ai",
   "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn",
   "https://www.darkreading.com/threat-intelligence/microsoft-tech-support-scam-operation",
   "https://www.darkreading.com/data-privacy/adfection-online-ads-spyware-delivery",
