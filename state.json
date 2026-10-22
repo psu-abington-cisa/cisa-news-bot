@@ -1,11 +1,16 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-10-21",
+  "breaches-and-incidents": "2026-10-22",
   "ctf-announcements": "2026-W43",
-  "cve-alerts": "2026-10-21",
-  "hacktuality": "2026-10-21"
+  "cve-alerts": "2026-10-22",
+  "hacktuality": "2026-10-22"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/africa-cybercrime-interpol-arrests",
+  "https://therecord.media/south-carolina-officials-offer-assistance-cyber-incident",
+  "https://therecord.media/meta-new-mexico-penalty-cambridge-analytica-privacy-case",
+  "https://therecord.media/utilities-cybersecurity-initiative-accenture",
+  "https://therecord.media/democrat-lawmakers-say-russia-is-aiming-to-undermine-party",
   "https://therecord.media/php-script-vulnerabilities-warnings",
   "https://therecord.media/fbi-says-safepay-ransomware-gang-among-most-active-600-victims",
   "https://therecord.media/california-warns-all-public-school-students-of-data-breach",
@@ -226,6 +231,17 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+  "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+  "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+  "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+  "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+  "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
+  "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
+  "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
+  "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
+  "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
+  "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
   "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
   "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
   "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
@@ -364,6 +380,14 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
+  "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
+  "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
+  "https://www.bleepingcomputer.com/news/google/google-chrome-adds-gemini-powered-scam-detection-warns-users-of-clickfix-attacks/",
+  "https://www.bleepingcomputer.com/news/security/japans-onamae-desktop-cloud-hacked-up-to-27-000-servers-affected/",
+  "https://www.bleepingcomputer.com/news/security/lazarus-hackers-use-post-quantum-cryptography-for-malware-delivery/",
+  "https://www.bleepingcomputer.com/news/security/cisa-hackers-chain-plex-flaws-in-plex2shell-attacks-to-breach-servers/",
+  "https://www.bleepingcomputer.com/news/security/openai-agents-disabled-safety-monitoring-one-lied-about-it/",
   "https://www.bleepingcomputer.com/news/security/php-ships-emergency-patches-for-critical-php2shell-flaws/",
   "https://www.bleepingcomputer.com/news/security/clickfix-has-never-been-bigger-and-ai-tools-are-its-most-convincing-lure-yet/",
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-cursorhide-button-lock-mouse-tools/",
@@ -437,6 +461,14 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/cybersecurity-operations/uae-transitions-50-government-services-agentic-ai",
+  "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security",
+  "https://www.darkreading.com/cloud-security/marvell-microsoft-oracle-standardize-data-center-hardware-security",
+  "https://www.darkreading.com/cloud-security/cloud-security-alliance-survey-data-loss-prevention-detects-data-loss",
+  "https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry",
+  "https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors",
+  "https://www.darkreading.com/cybersecurity-operations/optiv-launches-cyberbot-cybersecurity-awareness-training-program",
+  "https://www.darkreading.com/cybersecurity-operations/360-privacy-survey-high-profile-executives-feel-untouchable",
   "https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack",
   "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
   "https://www.darkreading.com/insider-threats/ex-openai-engineer-secret-recorder-saudi-ties",
