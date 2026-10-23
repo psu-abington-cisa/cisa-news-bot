@@ -1,11 +1,16 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-10-22",
+  "breaches-and-incidents": "2026-10-23",
   "ctf-announcements": "2026-W43",
-  "cve-alerts": "2026-10-22",
-  "hacktuality": "2026-10-22"
+  "cve-alerts": "2026-10-23",
+  "hacktuality": "2026-10-23"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/uk-undersea-cables-sabotage-new-sentencing-guidelines",
+  "https://therecord.media/quest-diagnostics-network-intrusion",
+  "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach",
+  "https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident",
+  "https://therecord.media/china-cyber-connectwise-ai",
   "https://therecord.media/africa-cybercrime-interpol-arrests",
   "https://therecord.media/south-carolina-officials-offer-assistance-cyber-incident",
   "https://therecord.media/meta-new-mexico-penalty-cambridge-analytica-privacy-case",
@@ -231,7 +236,19 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+  "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+  "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+  "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+  "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
+  "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
   "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+  "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+  "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
+  "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
+  "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+  "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
+  "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
   "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
   "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
   "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
@@ -380,6 +397,13 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+  "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+  "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+  "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+  "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
+  "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
   "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
   "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
   "https://www.bleepingcomputer.com/news/security/authorities-disrupt-nearly-11-000-cybercrime-networks-in-africa/",
@@ -461,6 +485,13 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough",
+  "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
+  "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak",
+  "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
+  "https://www.darkreading.com/insider-threats/texas-laptop-farms-north-korean-it-workers",
+  "https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware-french",
+  "https://www.darkreading.com/cyber-risk/cyber-insurance-covering-ai-damage",
   "https://www.darkreading.com/cybersecurity-operations/uae-transitions-50-government-services-agentic-ai",
   "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security",
   "https://www.darkreading.com/cloud-security/marvell-microsoft-oracle-standardize-data-center-hardware-security",
