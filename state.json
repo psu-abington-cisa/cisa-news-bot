@@ -1,13 +1,15 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-10-23",
+  "breaches-and-incidents": "2026-10-24",
   "ctf-announcements": "2026-W43",
-  "cve-alerts": "2026-10-23",
-  "hacktuality": "2026-10-23"
+  "cve-alerts": "2026-10-24",
+  "hacktuality": "2026-10-24"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/fcc-bans-devices-huawei-surveillance-chips",
   "https://therecord.media/uk-undersea-cables-sabotage-new-sentencing-guidelines",
   "https://therecord.media/quest-diagnostics-network-intrusion",
+  "https://therecord.media/php-php2shell-exploitation-attempts-pocs",
   "https://therecord.media/toronto-crime-tips-org-freezes-ops-after-breach",
   "https://therecord.media/indian-tech-company-announces-withdrawal-certificate-business-incident",
   "https://therecord.media/china-cyber-connectwise-ai",
@@ -125,6 +127,8 @@
   "https://ctftime.org/event/3458"
  ],
  "cve-alerts|https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json": [
+  "CVE-2026-114625",
+  "CVE-2026-110447",
   "CVE-2026-106931",
   "CVE-2026-96656",
   "CVE-2026-96655",
@@ -236,6 +240,15 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+  "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+  "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+  "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+  "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+  "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+  "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+  "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+  "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
   "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
   "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
   "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
@@ -397,6 +410,13 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+  "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
+  "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+  "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+  "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
   "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
   "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
   "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
@@ -485,6 +505,10 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
+  "https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice",
+  "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost",
+  "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk",
   "https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough",
   "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
   "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak",
