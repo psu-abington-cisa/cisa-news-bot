@@ -1,11 +1,16 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-10-26",
+  "breaches-and-incidents": "2026-10-27",
   "ctf-announcements": "2026-W44",
-  "cve-alerts": "2026-10-26",
-  "hacktuality": "2026-10-26"
+  "cve-alerts": "2026-10-27",
+  "hacktuality": "2026-10-27"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/uk-police-data-breached-from-suppliers-watchdog-report",
+  "https://therecord.media/university-of-new-mexico-hospital-diverts-cyber-incident",
+  "https://therecord.media/malicious-apps-russian-anxiety-gas-prices-drone-strikes",
+  "https://therecord.media/moscow-faces-internet-disruptions-as-foreign-leaders-gather",
+  "https://therecord.media/php-vulnerabilities-cisa-kev",
   "https://therecord.media/ukraine-cert-ua-warning-chinese-dahua-cameras-hacked",
   "https://therecord.media/litellm-hackers-ai-malware",
   "https://therecord.media/fcc-bans-devices-huawei-surveillance-chips",
@@ -54,6 +59,7 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130075",
   "https://databreaches.net/?p=130047",
   "https://databreaches.net/?p=130038",
   "https://databreaches.net/?p=130028",
@@ -131,6 +137,8 @@
   "https://ctftime.org/event/3458"
  ],
  "cve-alerts|https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json": [
+  "CVE-2026-109618",
+  "CVE-2026-109619",
   "CVE-2026-114625",
   "CVE-2026-110447",
   "CVE-2026-106931",
@@ -244,6 +252,20 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+  "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+  "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+  "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+  "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+  "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+  "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+  "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+  "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+  "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+  "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+  "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+  "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+  "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
   "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
   "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
   "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
@@ -423,6 +445,18 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+  "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+  "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+  "https://www.bleepingcomputer.com/news/apple/apple-backports-coregraphics-zero-day-patches-to-older-iphones/",
+  "https://www.bleepingcomputer.com/news/security/energy-giant-engie-discloses-data-breach-affecting-customers/",
+  "https://www.bleepingcomputer.com/news/security/cisa-confirms-php2shell-vulnerabilities-now-exploited-in-attacks/",
+  "https://www.bleepingcomputer.com/news/security/university-of-copenhagen-data-breach-exposes-data-of-525-000-people/",
+  "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+  "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+  "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
   "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
   "https://www.bleepingcomputer.com/news/security/chinese-man-extradited-for-role-in-36-million-cryptocurrency-scam/",
   "https://www.bleepingcomputer.com/news/linux/kali-linux-20263-released-with-6-new-tools-desktop-updates/",
@@ -523,6 +557,11 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/endpoint-security/aokigahara-stealer-developer-keyrings-ai-assistants",
+  "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
+  "https://www.darkreading.com/cybersecurity-careers/risks-rewards-ai-redefining-ciso-role",
+  "https://www.darkreading.com/application-security/in-the-wild-attack-ai-agents-trust-markdown",
+  "https://www.darkreading.com/cyberattacks-data-breaches/gheist-stolen-github-tokens-cloud-secrets",
   "https://www.darkreading.com/cyberattacks-data-breaches/10-software-security-practices-built-250-years",
   "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
   "https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice",
