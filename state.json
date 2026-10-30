@@ -1,11 +1,16 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-10-29",
+  "breaches-and-incidents": "2026-10-30",
   "ctf-announcements": "2026-W44",
-  "cve-alerts": "2026-10-29",
-  "hacktuality": "2026-10-29"
+  "cve-alerts": "2026-10-30",
+  "hacktuality": "2026-10-30"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/gchq-cannot-account-for-thousands-of-data-devices",
+  "https://therecord.media/hackers-target-government-windows-systems-asia-new-malware",
+  "https://therecord.media/polymarket-confirms-cyberattack-third-party",
+  "https://therecord.media/russian-home-goods-chain-faces-disruptions",
+  "https://therecord.media/binance-hit-by-record-6-billion-crypto-hack",
   "https://therecord.media/cyberattack-disrupts-belgian-tax-services-before-deadline",
   "https://therecord.media/new-mexico-cyberattack-hospital",
   "https://therecord.media/west-virginia-daniels-law-struck-down-appellate-court",
@@ -67,6 +72,13 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130188",
+  "https://databreaches.net/?p=130186",
+  "https://databreaches.net/?p=130184",
+  "https://databreaches.net/?p=130182",
+  "https://databreaches.net/?p=130180",
+  "https://databreaches.net/?p=130178",
+  "https://databreaches.net/?p=130176",
   "https://databreaches.net/?p=130174",
   "https://databreaches.net/?p=130172",
   "https://databreaches.net/?p=130170",
@@ -156,6 +168,8 @@
   "https://ctftime.org/event/3458"
  ],
  "cve-alerts|https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json": [
+  "CVE-2026-97229",
+  "CVE-2026-76418",
   "CVE-2026-41709",
   "CVE-2026-46300",
   "CVE-2026-48356",
@@ -275,6 +289,17 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+  "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
+  "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+  "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+  "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+  "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+  "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+  "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
+  "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+  "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+  "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
   "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
   "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
   "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
@@ -494,6 +519,21 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
+  "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+  "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-doubles-chatgpt-pro-usage-limits-after-backlash-over-planned-50-percent-cut/",
+  "https://www.bleepingcomputer.com/news/security/binance-probes-potential-58-billion-crypto-theft-hack/",
+  "https://www.bleepingcomputer.com/news/security/hugging-face-malware-campaign-returns-to-hijack-gpus-for-crypto-mining/",
+  "https://www.bleepingcomputer.com/news/security/japan-airlines-suffers-third-party-data-breach-exposing-passenger-info/",
+  "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
+  "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
+  "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
+  "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
+  "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
+  "https://www.bleepingcomputer.com/news/security/cisa-warns-of-fragnesia-linux-flaw-chained-in-php2shell-attacks/",
   "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127936-update-released-with-41-changes-and-fixes/",
   "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
   "https://www.bleepingcomputer.com/news/security/police-seize-virtualine-bulletproof-service-tied-to-ransowmare-cybercrime/",
@@ -623,9 +663,16 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward",
+  "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
+  "https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era",
+  "https://www.darkreading.com/cybersecurity-operations/why-ctf-more-important-than-ever",
+  "https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses",
+  "https://www.darkreading.com/cyber-risk/threat-modeling-4-simple-questions",
   "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
   "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy",
   "https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github",
+  "https://www.darkreading.com/cybersecurity-operations/ai-root-hospital-corridors-raised-security-stakes",
   "https://www.darkreading.com/cyber-risk/attacker-impersonates-ai-bots-scans-credentials",
   "https://www.darkreading.com/cybersecurity-operations/third-serengeti-sweep-1400-arrests-investigations-mature",
   "https://www.darkreading.com/cyber-risk/3-frameworks-cisos-ai-liability",
