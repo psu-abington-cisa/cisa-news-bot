@@ -1,11 +1,15 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-10-30",
+  "breaches-and-incidents": "2026-10-31",
   "ctf-announcements": "2026-W44",
-  "cve-alerts": "2026-10-30",
-  "hacktuality": "2026-10-30"
+  "cve-alerts": "2026-10-31",
+  "hacktuality": "2026-10-31"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
+  "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards",
+  "https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach",
+  "https://therecord.media/syrian-electronic-army-hacker-sentenced-three-years",
   "https://therecord.media/gchq-cannot-account-for-thousands-of-data-devices",
   "https://therecord.media/hackers-target-government-windows-systems-asia-new-malware",
   "https://therecord.media/polymarket-confirms-cyberattack-third-party",
@@ -168,6 +172,8 @@
   "https://ctftime.org/event/3458"
  ],
  "cve-alerts|https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json": [
+  "CVE-2026-118527",
+  "CVE-2026-111357",
   "CVE-2026-97229",
   "CVE-2026-76418",
   "CVE-2026-41709",
@@ -289,6 +295,13 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+  "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+  "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+  "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+  "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+  "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+  "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
   "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
   "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
   "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
@@ -519,6 +532,14 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+  "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+  "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+  "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+  "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+  "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+  "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+  "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
   "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
   "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
@@ -663,6 +684,10 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
+  "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down",
+  "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy-italian",
+  "https://www.darkreading.com/application-security/undead-software-projects-raise-security-risks",
   "https://www.darkreading.com/physical-security/russia-cyber-war-belarus-steps-forward",
   "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
   "https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era",
