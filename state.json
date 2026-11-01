@@ -1,9 +1,9 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-10-31",
+  "breaches-and-incidents": "2026-11-01",
   "ctf-announcements": "2026-W44",
-  "cve-alerts": "2026-10-31",
-  "hacktuality": "2026-10-31"
+  "cve-alerts": "2026-11-01",
+  "hacktuality": "2026-11-01"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
   "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
@@ -295,6 +295,10 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+  "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+  "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+  "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
   "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
   "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
   "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
@@ -532,6 +536,8 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+  "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
   "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
   "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
   "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
