@@ -1,11 +1,16 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-11-01",
-  "ctf-announcements": "2026-W44",
-  "cve-alerts": "2026-11-01",
-  "hacktuality": "2026-11-01"
+  "breaches-and-incidents": "2026-11-02",
+  "ctf-announcements": "2026-W45",
+  "cve-alerts": "2026-11-02",
+  "hacktuality": "2026-11-02"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/michigan-state-university-byod-gang-cyber-incident",
+  "https://therecord.media/polymarket-returning-funds-to-customers-after-site-compromise",
+  "https://therecord.media/hackers-ukraine-belarus-russia",
+  "https://therecord.media/apple-warns-users-99-countries-mercenary-spyware",
+  "https://therecord.media/ukraine-hackers-russia-alert-system",
   "https://therecord.media/doj-raises-privacy-concerns-over-character-ai-sale",
   "https://therecord.media/resolve-fashion-retailer-data-breach-payment-cards",
   "https://therecord.media/florida-warns-5-million-affected-financial-aid-site-breach",
@@ -125,6 +130,8 @@
   "https://databreaches.net/?p=129941"
  ],
  "ctf-announcements|https://ctftime.org/event/list/upcoming/rss/": [
+  "https://ctftime.org/event/3486",
+  "https://ctftime.org/event/3485",
   "https://ctftime.org/event/3491",
   "https://ctftime.org/event/3482",
   "https://ctftime.org/event/3477",
@@ -295,6 +302,14 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+  "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+  "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
+  "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
+  "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
+  "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
+  "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
+  "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
   "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
   "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
   "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
@@ -536,6 +551,17 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
+  "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+  "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+  "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
+  "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
+  "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
+  "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
+  "https://www.bleepingcomputer.com/news/security/ivanti-patches-two-more-connect-secure-zero-days-chained-in-attacks/",
+  "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+  "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
   "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
   "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
   "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
@@ -690,6 +716,9 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-ai-cyber-risk-report-miss",
+  "https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia",
+  "https://www.darkreading.com/cybersecurity-operations/investors-dish-new-startsup-what-back-next",
   "https://www.darkreading.com/cyberattacks-data-breaches/devs-trojanized-claude-code-extension-cursor",
   "https://www.darkreading.com/cybersecurity-operations/behind-the-scenes-how-operation-blackout-went-down",
   "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy-italian",
