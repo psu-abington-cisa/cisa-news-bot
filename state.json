@@ -1,11 +1,16 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-11-02",
+  "breaches-and-incidents": "2026-11-03",
   "ctf-announcements": "2026-W45",
-  "cve-alerts": "2026-11-02",
-  "hacktuality": "2026-11-02"
+  "cve-alerts": "2026-11-03",
+  "hacktuality": "2026-11-03"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/british-businesses-caught-in-europe-wide-supermarket-fridge-attacks",
+  "https://therecord.media/binance-cryptocurrency-theft-months-long-campaign-nkorea",
+  "https://therecord.media/russia-dismantles-vasygrek-infrastructure-detains-three",
+  "https://therecord.media/russia-linked-cyber-spies-target-ukraine-war-support",
+  "https://therecord.media/uk-ncsc-predicts-rise-cyberattacks-coming-months",
   "https://therecord.media/michigan-state-university-byod-gang-cyber-incident",
   "https://therecord.media/polymarket-returning-funds-to-customers-after-site-compromise",
   "https://therecord.media/hackers-ukraine-belarus-russia",
@@ -81,6 +86,16 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130223",
+  "https://databreaches.net/?p=130221",
+  "https://databreaches.net/?p=130219",
+  "https://databreaches.net/?p=130217",
+  "https://databreaches.net/?p=130215",
+  "https://databreaches.net/?p=130196",
+  "https://databreaches.net/?p=130205",
+  "https://databreaches.net/?p=130207",
+  "https://databreaches.net/?p=130209",
+  "https://databreaches.net/?p=130211",
   "https://databreaches.net/?p=130188",
   "https://databreaches.net/?p=130186",
   "https://databreaches.net/?p=130184",
@@ -302,6 +317,18 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+  "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+  "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+  "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+  "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+  "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+  "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html",
+  "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+  "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+  "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+  "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+  "https://thehackernews.com/2026/11/attackers-target-unpatched.html",
   "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
   "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
   "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
@@ -537,6 +564,7 @@
   "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html"
  ],
  "hacktuality|https://krebsonsecurity.com/feed/": [
+  "https://krebsonsecurity.com/?p=74548",
   "https://krebsonsecurity.com/?p=74522",
   "https://krebsonsecurity.com/?p=74480",
   "https://krebsonsecurity.com/?p=74435",
@@ -551,6 +579,13 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
+  "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+  "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+  "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/",
+  "https://www.bleepingcomputer.com/news/google/google-adds-new-250-000-cloud-vrp-reward-for-root-in-cloud-bugs/",
+  "https://www.bleepingcomputer.com/news/security/harvard-university-data-breach-exposed-info-of-851-000-accounts/",
+  "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
   "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
   "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
   "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
@@ -716,6 +751,10 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/cyber-risk/9-cyber-awareness-tips-todays-maze-threats",
+  "https://www.darkreading.com/cloud-security/llmjacking-thriving-cybercriminal-enterprise",
+  "https://www.darkreading.com/data-privacy/3am-affiliate-ai-loops-european-school-attack",
+  "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
   "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-ai-cyber-risk-report-miss",
   "https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia",
   "https://www.darkreading.com/cybersecurity-operations/investors-dish-new-startsup-what-back-next",
