@@ -1,11 +1,15 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-11-03",
+  "breaches-and-incidents": "2026-11-04",
   "ctf-announcements": "2026-W45",
-  "cve-alerts": "2026-11-03",
-  "hacktuality": "2026-11-03"
+  "cve-alerts": "2026-11-04",
+  "hacktuality": "2026-11-04"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/russia-cyberattack-beget-cloud",
+  "https://therecord.media/france-cyberattack-blood-refrigeration",
+  "https://therecord.media/google-dismantles-botnet-hidden-android-tv-boxes",
+  "https://therecord.media/german-officials-among-apple-spyware-warning-recipients",
   "https://therecord.media/british-businesses-caught-in-europe-wide-supermarket-fridge-attacks",
   "https://therecord.media/binance-cryptocurrency-theft-months-long-campaign-nkorea",
   "https://therecord.media/russia-dismantles-vasygrek-infrastructure-detains-three",
@@ -86,6 +90,12 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130241",
+  "https://databreaches.net/?p=130235",
+  "https://databreaches.net/?p=130233",
+  "https://databreaches.net/?p=130231",
+  "https://databreaches.net/?p=130229",
+  "https://databreaches.net/?p=130226",
   "https://databreaches.net/?p=130223",
   "https://databreaches.net/?p=130221",
   "https://databreaches.net/?p=130219",
@@ -194,6 +204,7 @@
   "https://ctftime.org/event/3458"
  ],
  "cve-alerts|https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json": [
+  "CVE-2026-119977",
   "CVE-2026-118527",
   "CVE-2026-111357",
   "CVE-2026-97229",
@@ -317,6 +328,16 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+  "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+  "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+  "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+  "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+  "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
+  "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+  "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+  "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+  "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
   "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
   "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
   "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
@@ -579,6 +600,15 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
+  "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
+  "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
+  "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+  "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
+  "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+  "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+  "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+  "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
   "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
   "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
   "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
@@ -751,6 +781,11 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/cybersecurity-operations/incidents-move-fast-pen-paper",
+  "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
+  "https://www.darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap",
+  "https://www.darkreading.com/ics-ot-security/fresh-european-fridge-attacks-cold-chain-security",
+  "https://www.darkreading.com/cybersecurity-operations/germany-crime-service-investment-fraud",
   "https://www.darkreading.com/cyber-risk/9-cyber-awareness-tips-todays-maze-threats",
   "https://www.darkreading.com/cloud-security/llmjacking-thriving-cybercriminal-enterprise",
   "https://www.darkreading.com/data-privacy/3am-affiliate-ai-loops-european-school-attack",
