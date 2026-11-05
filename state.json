@@ -1,11 +1,16 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-11-04",
+  "breaches-and-incidents": "2026-11-05",
   "ctf-announcements": "2026-W45",
-  "cve-alerts": "2026-11-04",
-  "hacktuality": "2026-11-04"
+  "cve-alerts": "2026-11-05",
+  "hacktuality": "2026-11-05"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/russia-hackers-smartphone-cyberattacks",
+  "https://therecord.media/chainalysis-all-users-hit-by-agentic-cyberattack",
+  "https://therecord.media/ukraine-fires-senior-security-officials-amid-scam-center-corruption-investigation",
+  "https://therecord.media/asian-airlines-announce-data-breach-it-provider-incident",
+  "https://therecord.media/canadian-nationals-accused-us-education-hacks-cryptomining",
   "https://therecord.media/russia-cyberattack-beget-cloud",
   "https://therecord.media/france-cyberattack-blood-refrigeration",
   "https://therecord.media/google-dismantles-botnet-hidden-android-tv-boxes",
@@ -90,6 +95,15 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130265",
+  "https://databreaches.net/?p=130263",
+  "https://databreaches.net/?p=130259",
+  "https://databreaches.net/?p=130256",
+  "https://databreaches.net/?p=130254",
+  "https://databreaches.net/?p=130249",
+  "https://databreaches.net/?p=130251",
+  "https://databreaches.net/?p=130243",
+  "https://databreaches.net/?p=130245",
   "https://databreaches.net/?p=130241",
   "https://databreaches.net/?p=130235",
   "https://databreaches.net/?p=130233",
@@ -204,6 +218,7 @@
   "https://ctftime.org/event/3458"
  ],
  "cve-alerts|https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json": [
+  "CVE-2024-27834",
   "CVE-2026-119977",
   "CVE-2026-118527",
   "CVE-2026-111357",
@@ -328,6 +343,17 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+  "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+  "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+  "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+  "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
+  "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+  "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+  "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+  "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+  "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+  "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
   "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
   "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
   "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
@@ -585,6 +611,7 @@
   "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html"
  ],
  "hacktuality|https://krebsonsecurity.com/feed/": [
+  "https://krebsonsecurity.com/?p=74588",
   "https://krebsonsecurity.com/?p=74548",
   "https://krebsonsecurity.com/?p=74522",
   "https://krebsonsecurity.com/?p=74480",
@@ -600,6 +627,17 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
+  "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
+  "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
+  "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
+  "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
+  "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+  "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+  "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+  "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+  "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+  "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
   "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
   "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
   "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
@@ -781,6 +819,9 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era",
+  "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
+  "https://www.darkreading.com/endpoint-security/google-13-million-device-strong-xcpe-botnet",
   "https://www.darkreading.com/cybersecurity-operations/incidents-move-fast-pen-paper",
   "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
   "https://www.darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap",
