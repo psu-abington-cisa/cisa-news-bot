@@ -1,11 +1,14 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-11-06",
+  "breaches-and-incidents": "2026-11-07",
   "ctf-announcements": "2026-W45",
-  "cve-alerts": "2026-11-06",
-  "hacktuality": "2026-11-06"
+  "cve-alerts": "2026-11-07",
+  "hacktuality": "2026-11-07"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/medical-services-company-settles-with-4-state-ags",
+  "https://therecord.media/digicert-certificate-authority-reports-data-breach",
+  "https://therecord.media/fbi-agent-pleads-guilty-to-stealing-from-nation-state-hackers",
   "https://therecord.media/ceo-spoofing-scammers-charged",
   "https://therecord.media/eu-accuses-tiktok-of-rabbit-hole-DSA-violation",
   "https://therecord.media/queens-library-ransomware-causes-disruptions",
@@ -100,6 +103,7 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130277",
   "https://databreaches.net/?p=130271",
   "https://databreaches.net/?p=130273",
   "https://databreaches.net/?p=130269",
@@ -227,6 +231,7 @@
   "https://ctftime.org/event/3458"
  ],
  "cve-alerts|https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json": [
+  "CVE-2026-19868",
   "CVE-2024-27834",
   "CVE-2026-119977",
   "CVE-2026-118527",
@@ -352,6 +357,10 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+  "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
+  "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
+  "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
   "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
   "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
   "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
@@ -644,6 +653,13 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+  "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+  "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+  "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+  "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+  "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
+  "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
   "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
   "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
   "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
@@ -844,8 +860,11 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/cybersecurity-operations/uk-tech-sovereignty-ai-policy",
+  "https://www.darkreading.com/cyber-risk/ai-gave-your-incident-archive-second-job",
   "https://www.darkreading.com/ics-ot-security/europes-freezer-hacks-spread-so-far-so-fast",
   "https://www.darkreading.com/cybersecurity-operations/uk-warns-critical-infrastructure-grave-risk",
+  "https://www.darkreading.com/cyberattacks-data-breaches/opera-o-de-influ-ncia-russa-tem-como-alvo-generalizado-a-am-rica-latina",
   "https://www.darkreading.com/cybersecurity-operations/us-government-email-systems-abuse-typos",
   "https://www.darkreading.com/cyber-risk/what-we-missed-knicks-phishing-test-out-of-bounds",
   "https://www.darkreading.com/mobile-security/apt29-watering-holes-target-mobile-users",
