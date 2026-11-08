@@ -1,9 +1,9 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-11-07",
+  "breaches-and-incidents": "2026-11-08",
   "ctf-announcements": "2026-W45",
-  "cve-alerts": "2026-11-07",
-  "hacktuality": "2026-11-07"
+  "cve-alerts": "2026-11-08",
+  "hacktuality": "2026-11-08"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
   "https://therecord.media/medical-services-company-settles-with-4-state-ags",
@@ -103,6 +103,10 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130281",
+  "https://databreaches.net/?p=130279",
+  "https://databreaches.net/?p=130275",
+  "https://databreaches.net/?p=130261",
   "https://databreaches.net/?p=130277",
   "https://databreaches.net/?p=130271",
   "https://databreaches.net/?p=130273",
@@ -653,6 +657,8 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+  "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
   "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
   "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
   "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
