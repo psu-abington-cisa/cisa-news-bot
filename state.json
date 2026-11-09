@@ -1,11 +1,16 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-11-08",
-  "ctf-announcements": "2026-W45",
-  "cve-alerts": "2026-11-08",
-  "hacktuality": "2026-11-08"
+  "breaches-and-incidents": "2026-11-09",
+  "ctf-announcements": "2026-W46",
+  "cve-alerts": "2026-11-09",
+  "hacktuality": "2026-11-09"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/france-blames-iran-for-fridge-cyberattacks",
+  "https://therecord.media/vanderbilt-cyberattack-ransomware-alert",
+  "https://therecord.media/ukraine-arrests-scam-call-centers-germany",
+  "https://therecord.media/cyberattack-germany-ai-mittwald",
+  "https://therecord.media/hackers-russia-italy-noname",
   "https://therecord.media/medical-services-company-settles-with-4-state-ags",
   "https://therecord.media/digicert-certificate-authority-reports-data-breach",
   "https://therecord.media/fbi-agent-pleads-guilty-to-stealing-from-nation-state-hackers",
@@ -103,6 +108,8 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130291",
+  "https://databreaches.net/?p=130286",
   "https://databreaches.net/?p=130281",
   "https://databreaches.net/?p=130279",
   "https://databreaches.net/?p=130275",
@@ -186,6 +193,8 @@
   "https://databreaches.net/?p=129941"
  ],
  "ctf-announcements|https://ctftime.org/event/list/upcoming/rss/": [
+  "https://ctftime.org/event/3464",
+  "https://ctftime.org/event/3489",
   "https://ctftime.org/event/3486",
   "https://ctftime.org/event/3485",
   "https://ctftime.org/event/3491",
@@ -235,6 +244,9 @@
   "https://ctftime.org/event/3458"
  ],
  "cve-alerts|https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json": [
+  "CVE-2026-102895",
+  "CVE-2026-123158",
+  "CVE-2026-116779",
   "CVE-2026-19868",
   "CVE-2024-27834",
   "CVE-2026-119977",
@@ -361,6 +373,17 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+  "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+  "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+  "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
+  "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
+  "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
+  "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
+  "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
+  "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
+  "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+  "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
   "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
   "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
   "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
@@ -657,6 +680,14 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+  "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
+  "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+  "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+  "https://www.bleepingcomputer.com/news/security/the-biggest-threat-to-your-grc-job-isnt-ai-its-ignoring-ai/",
+  "https://www.bleepingcomputer.com/news/security/fbi-agent-stole-25-million-in-crypto-from-hackers-fraud-victims/",
+  "https://www.bleepingcomputer.com/news/security/us-bans-mexc-crypto-exchange-over-sanctions-evasion-cybercrime-links/",
+  "https://www.bleepingcomputer.com/news/security/ukraine-dismantles-crypto-scam-network-that-stole-43-million/",
   "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
   "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
   "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
@@ -866,6 +897,9 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/endpoint-security/attackers-claude-office-party-flaw-malicious-code-linux",
+  "https://www.darkreading.com/cybersecurity-operations/pwc-ciso-ai-robots-security",
+  "https://www.darkreading.com/cybersecurity-operations/nist-solo-shouldnt-mean-less-secure",
   "https://www.darkreading.com/cybersecurity-operations/uk-tech-sovereignty-ai-policy",
   "https://www.darkreading.com/cyber-risk/ai-gave-your-incident-archive-second-job",
   "https://www.darkreading.com/ics-ot-security/europes-freezer-hacks-spread-so-far-so-fast",
