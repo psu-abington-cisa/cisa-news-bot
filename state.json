@@ -1,11 +1,15 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-11-10",
+  "breaches-and-incidents": "2026-11-11",
   "ctf-announcements": "2026-W46",
-  "cve-alerts": "2026-11-10",
-  "hacktuality": "2026-11-10"
+  "cve-alerts": "2026-11-11",
+  "hacktuality": "2026-11-11"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack",
+  "https://therecord.media/britain-france-set-out-guidelines-for-commercial-hacking-firms",
+  "https://therecord.media/us-army-member-arrested-in-uk-spying-for-russia",
+  "https://therecord.media/patch-tuesday-microsoft-1000-bugs-again",
   "https://therecord.media/ai-company-fireworks-says-hackers-stole-data-in-oct-attacks",
   "https://therecord.media/spyware-cyber-crime-iverify",
   "https://therecord.media/michael-losapio-cisa-director-nomination",
@@ -113,6 +117,16 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130398",
+  "https://databreaches.net/?p=130352",
+  "https://databreaches.net/?p=130334",
+  "https://databreaches.net/?p=130345",
+  "https://databreaches.net/?p=130343",
+  "https://databreaches.net/?p=130341",
+  "https://databreaches.net/?p=130330",
+  "https://databreaches.net/?p=130332",
+  "https://databreaches.net/?p=130336",
+  "https://databreaches.net/?p=130347",
   "https://databreaches.net/?p=130317",
   "https://databreaches.net/?p=130315",
   "https://databreaches.net/?p=130300",
@@ -259,6 +273,12 @@
   "https://ctftime.org/event/3458"
  ],
  "cve-alerts|https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json": [
+  "CVE-2026-124194",
+  "CVE-2026-111793",
+  "CVE-2026-20320",
+  "CVE-2026-111560",
+  "CVE-2026-116606",
+  "CVE-2026-125350",
   "CVE-2026-102895",
   "CVE-2026-123158",
   "CVE-2026-116779",
@@ -389,6 +409,18 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+  "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+  "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+  "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+  "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+  "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+  "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+  "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+  "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+  "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+  "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+  "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
   "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
   "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
   "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
@@ -693,6 +725,7 @@
   "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html"
  ],
  "hacktuality|https://krebsonsecurity.com/feed/": [
+  "https://krebsonsecurity.com/?p=74619",
   "https://krebsonsecurity.com/?p=74588",
   "https://krebsonsecurity.com/?p=74548",
   "https://krebsonsecurity.com/?p=74522",
@@ -709,6 +742,18 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+  "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
+  "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
+  "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
+  "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+  "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
+  "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+  "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
   "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
   "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
   "https://www.bleepingcomputer.com/news/security/ransomware-recovery-is-now-a-client-retention-metric/",
@@ -938,7 +983,14 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
+  "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
+  "https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them",
+  "https://www.darkreading.com/cybersecurity-careers/checkmarx-appoints-kobi-sivilya-chief-information-security-officer",
+  "https://www.darkreading.com/ics-ot-security/assess-ot-incident-response-preparedness",
+  "https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github",
   "https://www.darkreading.com/application-security/ai-reverse-engineering-apps",
+  "https://www.darkreading.com/cyber-risk/people-are-getting-weird-about-ai",
   "https://www.darkreading.com/cyberattacks-data-breaches/cisa-announces-enhanced-reporting-form-cyber-incidents",
   "https://www.darkreading.com/application-security/microsoft-rce-bug-windows-paint-confusion",
   "https://www.darkreading.com/cybersecurity-operations/black-hat-india-2026-landmark-debut",
