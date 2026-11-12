@@ -1,11 +1,16 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-11-11",
+  "breaches-and-incidents": "2026-11-12",
   "ctf-announcements": "2026-W46",
-  "cve-alerts": "2026-11-11",
-  "hacktuality": "2026-11-11"
+  "cve-alerts": "2026-11-12",
+  "hacktuality": "2026-11-12"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system",
+  "https://therecord.media/european-authorities-take-down-stealic-malware-second-time",
+  "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool",
+  "https://therecord.media/europe-hoax-email-threats",
+  "https://therecord.media/romania-russia-cyberattack-emails",
   "https://therecord.media/poland-shuts-down-government-services-platform-cyberattack",
   "https://therecord.media/britain-france-set-out-guidelines-for-commercial-hacking-firms",
   "https://therecord.media/us-army-member-arrested-in-uk-spying-for-russia",
@@ -117,6 +122,16 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130448",
+  "https://databreaches.net/?p=130445",
+  "https://databreaches.net/?p=130443",
+  "https://databreaches.net/?p=130419",
+  "https://databreaches.net/?p=130415",
+  "https://databreaches.net/?p=130412",
+  "https://databreaches.net/?p=130417",
+  "https://databreaches.net/?p=130408",
+  "https://databreaches.net/?p=130410",
+  "https://databreaches.net/?p=130406",
   "https://databreaches.net/?p=130398",
   "https://databreaches.net/?p=130352",
   "https://databreaches.net/?p=130334",
@@ -409,6 +424,24 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+  "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
+  "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+  "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
+  "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+  "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+  "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+  "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+  "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+  "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+  "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+  "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+  "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+  "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+  "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+  "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+  "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+  "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
   "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
   "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
   "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
@@ -725,6 +758,7 @@
   "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html"
  ],
  "hacktuality|https://krebsonsecurity.com/feed/": [
+  "https://krebsonsecurity.com/?p=74550",
   "https://krebsonsecurity.com/?p=74619",
   "https://krebsonsecurity.com/?p=74588",
   "https://krebsonsecurity.com/?p=74548",
@@ -742,6 +776,19 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+  "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
+  "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
+  "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
+  "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
+  "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+  "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+  "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+  "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+  "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+  "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
   "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
   "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
   "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
@@ -983,6 +1030,12 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer",
+  "https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry",
+  "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches",
+  "https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack",
+  "https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience",
+  "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
   "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
   "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
   "https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them",
