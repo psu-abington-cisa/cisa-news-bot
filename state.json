@@ -1,11 +1,16 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-11-12",
+  "breaches-and-incidents": "2026-11-13",
   "ctf-announcements": "2026-W46",
-  "cve-alerts": "2026-11-12",
-  "hacktuality": "2026-11-12"
+  "cve-alerts": "2026-11-13",
+  "hacktuality": "2026-11-13"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/german-parliament-passes-law-giving-spy-agencies-hacking-power",
+  "https://therecord.media/gootloader-ransomware-doj-details",
+  "https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider",
+  "https://therecord.media/belarus-cloud-provider-activecloud-ransomware-attack",
+  "https://therecord.media/record-number-of-cyber-incidents-reported-to-uk-regulator",
   "https://therecord.media/shipping-giant-maersk-says-recent-incident-affected-legacy-system",
   "https://therecord.media/european-authorities-take-down-stealic-malware-second-time",
   "https://therecord.media/connectwise-screenconnect-breaches-third-party-tool",
@@ -122,6 +127,13 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130467",
+  "https://databreaches.net/?p=130465",
+  "https://databreaches.net/?p=130462",
+  "https://databreaches.net/?p=130460",
+  "https://databreaches.net/?p=130421",
+  "https://databreaches.net/?p=130458",
+  "https://databreaches.net/?p=130456",
   "https://databreaches.net/?p=130448",
   "https://databreaches.net/?p=130445",
   "https://databreaches.net/?p=130443",
@@ -424,6 +436,14 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+  "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+  "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+  "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+  "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+  "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+  "https://thehackernews.com/2026/11/hackers-exploit-php2shell-flaws-in.html",
+  "https://thehackernews.com/2026/11/hackers-exploit-n-central-flaws-to.html",
   "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
   "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
   "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
@@ -776,6 +796,16 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+  "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+  "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-windows-activation-failures-after-november-updates/",
+  "https://www.bleepingcomputer.com/news/security/police-arrest-354-vendors-buyers-in-global-cybercrime-crackdown/",
+  "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+  "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+  "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+  "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
   "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
   "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
   "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
@@ -1030,11 +1060,17 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls",
+  "https://www.darkreading.com/cybersecurity-operations/getting-past-post-quantum-cryptography-discovery",
+  "https://www.darkreading.com/cybersecurity-operations/cyber-experts-fight-artex-antifox",
+  "https://www.darkreading.com/data-privacy/extortion-luna-moth-law-firms-second-time",
   "https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer",
   "https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry",
   "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches",
+  "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches-japanese",
   "https://www.darkreading.com/cloud-security/attackers-hello-scale-cloud-attack",
   "https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience",
+  "https://www.darkreading.com/cybersecurity-operations/test-takers-ai-exam-security-catch-up",
   "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
   "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
   "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
