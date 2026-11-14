@@ -1,11 +1,15 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-11-13",
+  "breaches-and-incidents": "2026-11-14",
   "ctf-announcements": "2026-W46",
-  "cve-alerts": "2026-11-13",
-  "hacktuality": "2026-11-13"
+  "cve-alerts": "2026-11-14",
+  "hacktuality": "2026-11-14"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/artex-ai-tool-fbi-flash-alert",
+  "https://therecord.media/city-of-osaka-japan-email-data-breach",
+  "https://therecord.media/nyc-council-passes-bill-ban-surveillance-pricing",
+  "https://therecord.media/university-of-texas-arlington-warns-data-breach",
   "https://therecord.media/german-parliament-passes-law-giving-spy-agencies-hacking-power",
   "https://therecord.media/gootloader-ransomware-doj-details",
   "https://therecord.media/tsmc-confirms-employee-data-breach-cloud-provider",
@@ -127,6 +131,10 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130484",
+  "https://databreaches.net/?p=130482",
+  "https://databreaches.net/?p=130480",
+  "https://databreaches.net/?p=130473",
   "https://databreaches.net/?p=130467",
   "https://databreaches.net/?p=130465",
   "https://databreaches.net/?p=130462",
@@ -300,6 +308,8 @@
   "https://ctftime.org/event/3458"
  ],
  "cve-alerts|https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json": [
+  "CVE-2026-114713",
+  "CVE-2026-123039",
   "CVE-2026-124194",
   "CVE-2026-111793",
   "CVE-2026-20320",
@@ -436,6 +446,8 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+  "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
   "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
   "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
   "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
@@ -796,6 +808,9 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+  "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+  "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
   "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
   "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
@@ -1060,6 +1075,7 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
   "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls",
   "https://www.darkreading.com/cybersecurity-operations/getting-past-post-quantum-cryptography-discovery",
   "https://www.darkreading.com/cybersecurity-operations/cyber-experts-fight-artex-antifox",
