@@ -1,9 +1,9 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-11-14",
+  "breaches-and-incidents": "2026-11-15",
   "ctf-announcements": "2026-W46",
-  "cve-alerts": "2026-11-14",
-  "hacktuality": "2026-11-14"
+  "cve-alerts": "2026-11-15",
+  "hacktuality": "2026-11-15"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
   "https://therecord.media/artex-ai-tool-fbi-flash-alert",
@@ -446,6 +446,8 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+  "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
   "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
   "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
   "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
@@ -808,6 +810,8 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+  "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
   "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
   "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
   "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
