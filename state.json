@@ -1,11 +1,16 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-11-15",
-  "ctf-announcements": "2026-W46",
-  "cve-alerts": "2026-11-15",
-  "hacktuality": "2026-11-15"
+  "breaches-and-incidents": "2026-11-16",
+  "ctf-announcements": "2026-W47",
+  "cve-alerts": "2026-11-16",
+  "hacktuality": "2026-11-16"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/italian-regulator-fines-meta-886-million-privacy",
+  "https://therecord.media/uk-national-cyber-force-headquarters-opens",
+  "https://therecord.media/romania-russia-cyberattack-espionage",
+  "https://therecord.media/uk-ofcom-child-safety-rules-client-side-scanning-left-out",
+  "https://therecord.media/british-government-complacent-foreign-cyber-threats",
   "https://therecord.media/artex-ai-tool-fbi-flash-alert",
   "https://therecord.media/city-of-osaka-japan-email-data-breach",
   "https://therecord.media/nyc-council-passes-bill-ban-surveillance-pricing",
@@ -131,6 +136,13 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130505",
+  "https://databreaches.net/?p=130499",
+  "https://databreaches.net/?p=130497",
+  "https://databreaches.net/?p=130471",
+  "https://databreaches.net/?p=130493",
+  "https://databreaches.net/?p=130489",
+  "https://databreaches.net/?p=130486",
   "https://databreaches.net/?p=130484",
   "https://databreaches.net/?p=130482",
   "https://databreaches.net/?p=130480",
@@ -257,6 +269,8 @@
   "https://databreaches.net/?p=129941"
  ],
  "ctf-announcements|https://ctftime.org/event/list/upcoming/rss/": [
+  "https://ctftime.org/event/3502",
+  "https://ctftime.org/event/3510",
   "https://ctftime.org/event/3464",
   "https://ctftime.org/event/3489",
   "https://ctftime.org/event/3486",
@@ -446,6 +460,13 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+  "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+  "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+  "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+  "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+  "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+  "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
   "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
   "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
   "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
@@ -810,6 +831,16 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
+  "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
+  "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
+  "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
+  "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
+  "https://www.bleepingcomputer.com/news/linux/new-noisytcp-linux-kernel-flaw-lets-attackers-crash-servers/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-new-windows-emergency-updates-fix-activation-licensing-failures/",
+  "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
   "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
   "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
   "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
@@ -1079,6 +1110,7 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/cyberattacks-data-breaches/china-nexus-actors-breach-10-organizations-ai-driven-attacks",
   "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
   "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls",
   "https://www.darkreading.com/cybersecurity-operations/getting-past-post-quantum-cryptography-discovery",
