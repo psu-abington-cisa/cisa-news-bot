@@ -1,11 +1,16 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-11-17",
+  "breaches-and-incidents": "2026-11-18",
   "ctf-announcements": "2026-W47",
-  "cve-alerts": "2026-11-17",
-  "hacktuality": "2026-11-17"
+  "cve-alerts": "2026-11-18",
+  "hacktuality": "2026-11-18"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/ai-cyber-white-house",
+  "https://therecord.media/nsa-continues-response-to-nsa-net-problems",
+  "https://therecord.media/russia-cyber-espionage-google",
+  "https://therecord.media/british-hacker-gets-six-year-sentence-scattered-spider",
+  "https://therecord.media/russia-hockey-cyberattack-championships",
   "https://therecord.media/uber-says-150000-impacted-third-party-breach",
   "https://therecord.media/kazakh-suspected-extradited-charges-8-digits-team-inc-lynx",
   "https://therecord.media/chinese-state-group-developing-automated-attack-tool-espionage",
@@ -141,6 +146,15 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130621",
+  "https://databreaches.net/?p=130601",
+  "https://databreaches.net/?p=130580",
+  "https://databreaches.net/?p=130589",
+  "https://databreaches.net/?p=130586",
+  "https://databreaches.net/?p=130584",
+  "https://databreaches.net/?p=130582",
+  "https://databreaches.net/?p=130590",
+  "https://databreaches.net/?p=130547",
   "https://databreaches.net/?p=130553",
   "https://databreaches.net/?p=130549",
   "https://databreaches.net/?p=130545",
@@ -476,6 +490,19 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+  "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+  "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+  "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
+  "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
+  "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
+  "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+  "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
+  "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+  "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+  "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
+  "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
+  "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
   "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
   "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
   "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
@@ -838,6 +865,7 @@
   "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html"
  ],
  "hacktuality|https://krebsonsecurity.com/feed/": [
+  "https://krebsonsecurity.com/?p=74672",
   "https://krebsonsecurity.com/?p=74550",
   "https://krebsonsecurity.com/?p=74619",
   "https://krebsonsecurity.com/?p=74588",
@@ -856,6 +884,15 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+  "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
+  "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
+  "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
+  "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
+  "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+  "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+  "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
   "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
   "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
   "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
@@ -1149,6 +1186,10 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/vulnerabilities-threats/java4shell-flaw-threatens-global-java-application-ecosystem",
+  "https://www.darkreading.com/vulnerabilities-threats/major-brazilian-signature-app-rce-fraud",
+  "https://www.darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks",
+  "https://www.darkreading.com/perimeter/themailer-phishing-kit-ai-drivers-seat",
   "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach",
   "https://www.darkreading.com/application-security/grok-bots-corporate-data-without-user-approval",
   "https://www.darkreading.com/vulnerabilities-threats/google-project-zero-bug-disclosure-deadlines",
