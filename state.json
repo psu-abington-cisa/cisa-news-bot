@@ -1,11 +1,16 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-11-18",
+  "breaches-and-incidents": "2026-11-19",
   "ctf-announcements": "2026-W47",
-  "cve-alerts": "2026-11-18",
-  "hacktuality": "2026-11-18"
+  "cve-alerts": "2026-11-19",
+  "hacktuality": "2026-11-19"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/doj-dhs-partner-on-new-unit-tackling-scams-cybercrime",
+  "https://therecord.media/cisa-losapio-nomination-trump",
+  "https://therecord.media/apple-uk-encryption-notice",
+  "https://therecord.media/european-commission-confirms-cyberattack-using-ai",
+  "https://therecord.media/ukraine-ransomware-arrests-cyber",
   "https://therecord.media/ai-cyber-white-house",
   "https://therecord.media/nsa-continues-response-to-nsa-net-problems",
   "https://therecord.media/russia-cyber-espionage-google",
@@ -146,6 +151,11 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130654",
+  "https://databreaches.net/?p=130652",
+  "https://databreaches.net/?p=130630",
+  "https://databreaches.net/?p=130625",
+  "https://databreaches.net/?p=130623",
   "https://databreaches.net/?p=130621",
   "https://databreaches.net/?p=130601",
   "https://databreaches.net/?p=130580",
@@ -351,6 +361,10 @@
   "https://ctftime.org/event/3458"
  ],
  "cve-alerts|https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json": [
+  "CVE-2024-10441",
+  "CVE-2026-40217",
+  "CVE-2026-90817",
+  "CVE-2026-90436",
   "CVE-2026-115731",
   "CVE-2026-114713",
   "CVE-2026-123039",
@@ -490,6 +504,16 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+  "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+  "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+  "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+  "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+  "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+  "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
+  "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+  "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+  "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
   "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
   "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
   "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
@@ -884,6 +908,17 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+  "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+  "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+  "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+  "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
+  "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
+  "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+  "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+  "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
   "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
   "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
   "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
@@ -1186,6 +1221,11 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/cybersecurity-operations/why-holiday-security-cant-wait-black-friday",
+  "https://www.darkreading.com/threat-intelligence/africa-top-spot-most-attacked-region-nigeria-surge",
+  "https://www.darkreading.com/cyberattacks-data-breaches/cold-relic-turns-one-cloud-breach-into-another",
+  "https://www.darkreading.com/cyber-risk/strike-graph-launches-integration-ai-to-automate-continuous-compliance-evidence-using-any-existing-tool",
+  "https://www.darkreading.com/threat-intelligence/attackiq-research-reveals-iranian-cyber-groups",
   "https://www.darkreading.com/vulnerabilities-threats/java4shell-flaw-threatens-global-java-application-ecosystem",
   "https://www.darkreading.com/vulnerabilities-threats/major-brazilian-signature-app-rce-fraud",
   "https://www.darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks",
