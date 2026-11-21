@@ -1,11 +1,14 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-11-20",
+  "breaches-and-incidents": "2026-11-21",
   "ctf-announcements": "2026-W47",
-  "cve-alerts": "2026-11-20",
-  "hacktuality": "2026-11-20"
+  "cve-alerts": "2026-11-21",
+  "hacktuality": "2026-11-21"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/west-virginia-legislature-cyberattack",
+  "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
+  "https://therecord.media/container-store-restores-systems-cyberattack",
   "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
   "https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions",
   "https://therecord.media/sean-cairncross-out-as-national-cyber-director",
@@ -156,6 +159,15 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130736",
+  "https://databreaches.net/?p=130732",
+  "https://databreaches.net/?p=130726",
+  "https://databreaches.net/?p=130730",
+  "https://databreaches.net/?p=130728",
+  "https://databreaches.net/?p=130724",
+  "https://databreaches.net/?p=130722",
+  "https://databreaches.net/?p=130715",
+  "https://databreaches.net/?p=130712",
   "https://databreaches.net/?p=130654",
   "https://databreaches.net/?p=130652",
   "https://databreaches.net/?p=130630",
@@ -366,6 +378,10 @@
   "https://ctftime.org/event/3458"
  ],
  "cve-alerts|https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json": [
+  "CVE-2026-129448",
+  "CVE-2026-123890",
+  "CVE-2025-42884",
+  "CVE-2026-76466",
   "CVE-2024-10441",
   "CVE-2026-40217",
   "CVE-2026-90817",
@@ -509,6 +525,12 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+  "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+  "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+  "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+  "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+  "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
   "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
   "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
   "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
@@ -903,6 +925,7 @@
   "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html"
  ],
  "hacktuality|https://krebsonsecurity.com/feed/": [
+  "https://krebsonsecurity.com/?p=74696",
   "https://krebsonsecurity.com/?p=74672",
   "https://krebsonsecurity.com/?p=74550",
   "https://krebsonsecurity.com/?p=74619",
@@ -922,6 +945,9 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+  "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+  "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
   "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
   "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
   "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
@@ -1245,6 +1271,9 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
+  "https://www.darkreading.com/cybersecurity-operations/security-words-matter",
+  "https://www.darkreading.com/cyber-risk/what-we-missed-nvidia-ceo-scandal-rocks-ai-industry",
   "https://www.darkreading.com/cyber-risk/qwen-incidents-self-hosted-ai-models-stronger-steering",
   "https://www.darkreading.com/cyberattacks-data-breaches/second-norwegian-energy-company-breached",
   "https://www.darkreading.com/application-security/critical-php-flaws-code-execution-panic-php2shell",
