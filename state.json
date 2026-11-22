@@ -1,9 +1,9 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-11-21",
+  "breaches-and-incidents": "2026-11-22",
   "ctf-announcements": "2026-W47",
-  "cve-alerts": "2026-11-21",
-  "hacktuality": "2026-11-21"
+  "cve-alerts": "2026-11-22",
+  "hacktuality": "2026-11-22"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
   "https://therecord.media/west-virginia-legislature-cyberattack",
@@ -159,6 +159,10 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130766",
+  "https://databreaches.net/?p=130762",
+  "https://databreaches.net/?p=130760",
+  "https://databreaches.net/?p=130764",
   "https://databreaches.net/?p=130736",
   "https://databreaches.net/?p=130732",
   "https://databreaches.net/?p=130726",
@@ -525,6 +529,8 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+  "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
   "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
   "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
   "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
@@ -945,6 +951,10 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+  "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+  "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+  "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
   "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
   "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
   "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
