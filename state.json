@@ -1,11 +1,12 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-11-22",
-  "ctf-announcements": "2026-W47",
-  "cve-alerts": "2026-11-22",
-  "hacktuality": "2026-11-22"
+  "breaches-and-incidents": "2026-11-23",
+  "ctf-announcements": "2026-W48",
+  "cve-alerts": "2026-11-23",
+  "hacktuality": "2026-11-23"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/austrian-foreign-ministry-says-website-hacked",
   "https://therecord.media/west-virginia-legislature-cyberattack",
   "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
   "https://therecord.media/container-store-restores-systems-cyberattack",
@@ -159,6 +160,12 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130814",
+  "https://databreaches.net/?p=130811",
+  "https://databreaches.net/?p=130796",
+  "https://databreaches.net/?p=130807",
+  "https://databreaches.net/?p=130804",
+  "https://databreaches.net/?p=130802",
   "https://databreaches.net/?p=130766",
   "https://databreaches.net/?p=130762",
   "https://databreaches.net/?p=130760",
@@ -329,6 +336,8 @@
   "https://databreaches.net/?p=129941"
  ],
  "ctf-announcements|https://ctftime.org/event/list/upcoming/rss/": [
+  "https://ctftime.org/event/3512",
+  "https://ctftime.org/event/3509",
   "https://ctftime.org/event/3502",
   "https://ctftime.org/event/3510",
   "https://ctftime.org/event/3464",
@@ -529,6 +538,12 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+  "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+  "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+  "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+  "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+  "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
   "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
   "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
   "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
@@ -951,6 +966,12 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
+  "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
+  "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+  "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
   "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
   "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
   "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
@@ -1281,9 +1302,11 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/identity-access-management-security/ai-agents-bring-enterprises-new-access-control-challenges",
   "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
   "https://www.darkreading.com/cybersecurity-operations/security-words-matter",
   "https://www.darkreading.com/cyber-risk/what-we-missed-nvidia-ceo-scandal-rocks-ai-industry",
+  "https://www.darkreading.com/endpoint-security/microsoft-offense-defense-ai-security-tools",
   "https://www.darkreading.com/cyber-risk/qwen-incidents-self-hosted-ai-models-stronger-steering",
   "https://www.darkreading.com/cyberattacks-data-breaches/second-norwegian-energy-company-breached",
   "https://www.darkreading.com/application-security/critical-php-flaws-code-execution-panic-php2shell",
