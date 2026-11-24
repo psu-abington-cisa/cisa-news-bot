@@ -1,11 +1,16 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-11-23",
+  "breaches-and-incidents": "2026-11-24",
   "ctf-announcements": "2026-W48",
-  "cve-alerts": "2026-11-23",
-  "hacktuality": "2026-11-23"
+  "cve-alerts": "2026-11-24",
+  "hacktuality": "2026-11-24"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/mycolorado-app-down-data-breach",
+  "https://therecord.media/california-privacy-agency-kemp",
+  "https://therecord.media/idscan-data-breach-warning-congressional-letter",
+  "https://therecord.media/carnegie-endowment-data-breach",
+  "https://therecord.media/cisa-nable-cybersecurity-bug",
   "https://therecord.media/austrian-foreign-ministry-says-website-hacked",
   "https://therecord.media/west-virginia-legislature-cyberattack",
   "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
@@ -160,6 +165,11 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130717",
+  "https://databreaches.net/?p=130860",
+  "https://databreaches.net/?p=130858",
+  "https://databreaches.net/?p=130855",
+  "https://databreaches.net/?p=130846",
   "https://databreaches.net/?p=130814",
   "https://databreaches.net/?p=130811",
   "https://databreaches.net/?p=130796",
@@ -391,6 +401,11 @@
   "https://ctftime.org/event/3458"
  ],
  "cve-alerts|https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json": [
+  "CVE-2026-132224",
+  "CVE-2026-131914",
+  "CVE-2026-132165",
+  "CVE-2026-133968",
+  "CVE-2026-134624",
   "CVE-2026-129448",
   "CVE-2026-123890",
   "CVE-2025-42884",
@@ -538,6 +553,18 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+  "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+  "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+  "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+  "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
+  "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
+  "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+  "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
+  "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+  "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+  "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+  "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
   "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
   "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
   "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
@@ -586,7 +613,6 @@
   "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
   "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
   "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
-  "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
   "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
   "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
   "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
@@ -966,6 +992,21 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+  "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+  "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+  "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+  "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
+  "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
+  "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+  "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
+  "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
+  "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
+  "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
+  "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
+  "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+  "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+  "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
   "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
   "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
@@ -1302,8 +1343,15 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
+  "https://www.darkreading.com/ics-ot-security/industrial-serial-gateways-broadcast-insecure",
+  "https://www.darkreading.com/endpoint-security/crowdstrike-ai-security-push-zscaler-deal",
+  "https://www.darkreading.com/cybersecurity-operations/us-cyber-director-pick-signals-shift-toward-expertise",
+  "https://www.darkreading.com/cybersecurity-operations/alias-researcher-unmasked-ransomware-actors",
+  "https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes",
   "https://www.darkreading.com/identity-access-management-security/ai-agents-bring-enterprises-new-access-control-challenges",
   "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
+  "https://www.darkreading.com/cyberattacks-data-breaches/second-norwegian-energy-company-breached-norwegian",
   "https://www.darkreading.com/cybersecurity-operations/security-words-matter",
   "https://www.darkreading.com/cyber-risk/what-we-missed-nvidia-ceo-scandal-rocks-ai-industry",
   "https://www.darkreading.com/endpoint-security/microsoft-offense-defense-ai-security-tools",
