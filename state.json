@@ -1,11 +1,13 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-11-24",
+  "breaches-and-incidents": "2026-11-25",
   "ctf-announcements": "2026-W48",
-  "cve-alerts": "2026-11-24",
-  "hacktuality": "2026-11-24"
+  "cve-alerts": "2026-11-25",
+  "hacktuality": "2026-11-25"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/guadeloupe-ransomware-hospital-cyber",
+  "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident",
   "https://therecord.media/mycolorado-app-down-data-breach",
   "https://therecord.media/california-privacy-agency-kemp",
   "https://therecord.media/idscan-data-breach-warning-congressional-letter",
@@ -165,6 +167,10 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130884",
+  "https://databreaches.net/?p=130880",
+  "https://databreaches.net/?p=130868",
+  "https://databreaches.net/?p=130871",
   "https://databreaches.net/?p=130717",
   "https://databreaches.net/?p=130860",
   "https://databreaches.net/?p=130858",
@@ -401,6 +407,7 @@
   "https://ctftime.org/event/3458"
  ],
  "cve-alerts|https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json": [
+  "CVE-2026-103406",
   "CVE-2026-132224",
   "CVE-2026-131914",
   "CVE-2026-132165",
@@ -553,6 +560,15 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+  "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+  "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+  "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+  "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
+  "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+  "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+  "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+  "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
   "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
   "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
   "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
@@ -992,6 +1008,12 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
+  "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
+  "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
+  "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
   "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
   "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
   "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
@@ -1343,7 +1365,14 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
+  "https://www.darkreading.com/cyber-risk/bot-world-just-living",
+  "https://www.darkreading.com/cybersecurity-operations/cyber-insurers-see-new-ai-divide",
+  "https://www.darkreading.com/cyberattacks-data-breaches/latin-america-cyberattacks-ports-pipelines-manufacturing",
+  "https://www.darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem",
+  "https://www.darkreading.com/perimeter/webworm-slithers-customized-softether-vpn",
   "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
+  "https://www.darkreading.com/cybersecurity-operations/how-southeastern-university-handle-data",
   "https://www.darkreading.com/ics-ot-security/industrial-serial-gateways-broadcast-insecure",
   "https://www.darkreading.com/endpoint-security/crowdstrike-ai-security-push-zscaler-deal",
   "https://www.darkreading.com/cybersecurity-operations/us-cyber-director-pick-signals-shift-toward-expertise",
