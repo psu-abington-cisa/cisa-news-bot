@@ -1,11 +1,15 @@
 {
  "_digests": {
-  "breaches-and-incidents": "2026-11-26",
+  "breaches-and-incidents": "2026-11-27",
   "ctf-announcements": "2026-W48",
-  "cve-alerts": "2026-11-26",
-  "hacktuality": "2026-11-26"
+  "cve-alerts": "2026-11-27",
+  "hacktuality": "2026-11-27"
  },
  "breaches-and-incidents|https://therecord.media/feed": [
+  "https://therecord.media/japan-education-ministry-cyberattack",
+  "https://therecord.media/sap-germany-cyberattack-github",
+  "https://therecord.media/france-afp-hit-by-cyberattack",
+  "https://therecord.media/uk-department-work-pensions-cyber-incident",
   "https://therecord.media/britain-delays-national-cyber-action-plan-again",
   "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
   "https://therecord.media/fifa-data-breach-limited",
@@ -172,6 +176,12 @@
   "https://therecord.media/north-korea-hackers-russia-ukraine"
  ],
  "breaches-and-incidents|https://www.databreaches.net/feed/": [
+  "https://databreaches.net/?p=130915",
+  "https://databreaches.net/?p=130912",
+  "https://databreaches.net/?p=130902",
+  "https://databreaches.net/?p=130910",
+  "https://databreaches.net/?p=130908",
+  "https://databreaches.net/?p=130904",
   "https://databreaches.net/?p=130896",
   "https://databreaches.net/?p=130889",
   "https://databreaches.net/?p=130893",
@@ -417,6 +427,9 @@
   "https://ctftime.org/event/3458"
  ],
  "cve-alerts|https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json": [
+  "CVE-2026-120705",
+  "CVE-2026-129243",
+  "CVE-2026-136716",
   "CVE-2026-103406",
   "CVE-2026-133469",
   "CVE-2025-41450",
@@ -579,6 +592,13 @@
   "CVE-2026-25089"
  ],
  "hacktuality|https://feeds.feedburner.com/TheHackersNews": [
+  "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+  "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+  "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+  "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+  "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+  "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+  "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
   "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
   "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
   "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
@@ -1033,6 +1053,18 @@
   "https://krebsonsecurity.com/?p=73635"
  ],
  "hacktuality|https://www.bleepingcomputer.com/feed/": [
+  "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+  "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+  "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+  "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+  "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+  "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+  "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+  "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
+  "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+  "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
   "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
   "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
   "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
@@ -1398,6 +1430,8 @@
   "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/"
  ],
  "hacktuality|https://www.darkreading.com/rss.xml": [
+  "https://www.darkreading.com/cyber-risk/matters-india-cybersecurity-pre-series-ai-data-risks",
+  "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
   "https://www.darkreading.com/cyberattacks-data-breaches/cyprus-espionage-target-iranian-hackers",
   "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
   "https://www.darkreading.com/cyber-risk/bot-world-just-living",
@@ -1405,7 +1439,6 @@
   "https://www.darkreading.com/cyberattacks-data-breaches/latin-america-cyberattacks-ports-pipelines-manufacturing",
   "https://www.darkreading.com/cyber-risk/satellites-ground-level-cybersecurity-problem",
   "https://www.darkreading.com/perimeter/webworm-slithers-customized-softether-vpn",
-  "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
   "https://www.darkreading.com/cybersecurity-operations/how-southeastern-university-handle-data",
   "https://www.darkreading.com/ics-ot-security/industrial-serial-gateways-broadcast-insecure",
   "https://www.darkreading.com/endpoint-security/crowdstrike-ai-security-push-zscaler-deal",
